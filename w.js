@@ -25,9 +25,15 @@ on.onclick = () => {
     search.style.opacity = '1';
     search.style.visibility = 'visible';
 }
-input.onclick = () => {
+input.onmousemove =   () => {
     input.style.background = 'white';
-    button.style.background = 'white';
+    button.style.background = 'white';    
+}
+
+
+input.onmouseout = () => {
+    input.style.background = '#F5F5F7';
+    button.style.background = '#F5F5F7';
 }
 off.onclick = () => {
     on.style.opacity = '1';
