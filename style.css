@@ -56,9 +56,9 @@ header a:hover::after{
     cursor: pointer;
     opacity: 0;
     visibility: hidden;
-    position: absolute;
-    left: 170px;
-    top: 33px;
+    position: relative;
+    left: 168px;
+    bottom: 65px;
     display: flex;
     justify-content: center;
     align-items: center;
